@@ -7,6 +7,11 @@ from sklearn.cluster import KMeans
 
 class PoissonMixtureModel():
 
+	'''
+	Poisson mixture model with K poisson variables.
+	Fitted with expectation maximisation algorithm.
+	'''
+
 	def __init__(self, y = None, K = 5, n_iter = 1000, max_tol = 0.00001, msg = True):
 		''''''
 		self.K = K
