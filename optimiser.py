@@ -5,7 +5,7 @@ import operator
 import pulp
 
 '''
-altered form of: ...
+altered form of: https://github.com/Torvaney/fpl-optimiser
 
 '''
 
